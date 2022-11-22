@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형</title>
+    <script src="https://kit.fontawesome.com/93cef6c672.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/reset.css">   
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/layout.js"></script>
+</head>
+<body>
+
+        <header id="top">   
+            <div class="box_block">
+            <h1><a href="index.html"><img src="images/로고/00fcf6ce1c81d3074cc0edd3eb92bfc8_56524.png" alt="올리브영"></a></h1>  
+           
+            <div class="search_wrap">
+                <input type="search" id="u_search"><img src="images/search/icon_search.png" alt="검색" id="btn_search">
+            </div>
+
+            <div class="m_menu"><!-- 테블릿/모바일 -->
+                <ul>
+                    <li class="m_search"><a href="#"><img src="images/search/icon_search.png" alt="모바일서치"></a></li>
+                    <li class="m_cart"><a href="#"><img src="images/search/icon_basket_01.png" alt="모바일카트"></a></li>
+                </ul>
+            </div>
+
+             <div class="cart_wrap">
+                <a href="#"><img src="images/search/icon_basket_01.png" alt="카트" class="cart_wrap"></a>
+             </div>       
+            
+            <div class="nav_wrap">
+                <div class="box_block">
+                        <nav id="gnb"><!-- 웹 메뉴 -->
+                            <ul id="menu1">
+                                <li class="me1"><a href="#">신메뉴</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">반찬</a></li>
+                                        <li><a href="#">김치</a></li>
+                                        <li><a href="#">밀키트/요리</a></li>
+                                        <li><a href="#">키즈</a></li>
+                                        <li><a href="#">국/찌개</a></li>
+                                    </ul>
+                                </li>
+                                <li class="me2"><a href="#">베스트</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">반찬</a></li>
+                                        <li><a href="#">김치</a></li>
+                                        <li><a href="#">밀키트/요리</a></li>
+                                        <li><a href="#">키즈</a></li>
+                                        <li><a href="#">국/찌개</a></li>
+                                    </ul>
+                                </li>
+                                <li class="me3"><a href="#">위클리</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">베이직</a></li>
+                                        <li><a href="#">클래식</a></li>
+                                        <li><a href="#">프리미엄</a></li>
+                                    </ul>
+                                </li>
+                                <li class="me4"><a href="#">몽촌가이드</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">첫 구매가이드</a></li>
+                                        <li><a href="#">배송안내</a></li>
+                                        <li><a href="#">맴버십</a></li>
+                                    </ul>
+                                </li>
+                                <li class="me5"><a href="#">이벤트</a></li>
+                            </ul>
+                        </nav><!-- gnb -->
+                        
+                        <p class="gnb_bar"><a href="#"><img src="images/menu.png" alt="메뉴"></a></p>
+
+                        <div id="m_gnb"><!-- 태블릿/모바일 -->
+                            <ul id="menu2">
+                                <li class="me1_1"><a href="#">신메뉴</a>
+                                     <ul class="submenu2">
+                                        <li><a href="#">반찬</a></li>
+                                        <li><a href="#">김치</a></li>
+                                        <li><a href="#">밀키트/요리</a></li>
+                                        <li><a href="#">키즈</a></li>
+                                        <li><a href="#">국/찌개</a></li>
+                                    </ul> 
+                                </li>
+                                
+                                <li class="me2_1"><a href="#">베스트</a>
+                                    <ul class="submenu2">
+                                        <li><a href="#">반찬</a></li>
+                                        <li><a href="#">김치</a></li>
+                                        <li><a href="#">밀키트/요리</a></li>
+                                        <li><a href="#">키즈</a></li>
+                                        <li><a href="#">국/찌개</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="me3_1"><a href="#">위클리</a>
+                                     <ul class="submenu2">
+                                        <li><a href="#">베이직</a></li>
+                                        <li><a href="#">클래식</a></li>
+                                        <li><a href="#">프리미엄</a></li>
+                                    </ul> 
+                                </li>
+                                
+                                <li class="me4_1"><a href="#">몽촌가이드</a>
+                                    <ul class="submenu2">
+                                        <li><a href="#">첫 구매가이드</a></li>
+                                        <li><a href="#">배송안내</a></li>
+                                        <li><a href="#">맴버십</a></li>
+                                    </ul>
+                                </li>
+                                <li class="me5_1"><a href="#">이벤트</a></li>
+                            </ul>
+                          <p class="close"><a href="#"><i class="far fa-times-circle"></i></a></p>
+                        </div><!-- m_gnb -->
+                </div>
+            </div><!-- nav_wrap -->
+            </div><!-- box_block -->
+
+        </header><!-- top -->
+
+    
+        <div class="box_block block12_1">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/silde1/1bb52ef1235e14f3b05f0f0827a1d6c6_28454.jpg" class="d-block w-100" alt="product1">
+              </div>
+              <div class="carousel-item">
+                <img src="images/silde1/671751bad096adce4f89eaf00a1e808d_20853.jpg" class="d-block w-100" alt="product1">
+              </div>
+              <div class="carousel-item">
+                <img src="images/silde1/8dd2b5d671eda17f1343679c2bf29c7a_84868.jpg" class="d-block w-100" alt="product1">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </button>
+          </div>
+        </div><!-- block12_1 -->
+
+   <!--  <div class="box_block">
+        <div class="block12 block12_1">
+            <p class="main_img"><img src="images/silde1/1bb52ef1235e14f3b05f0f0827a1d6c6_28454.jpg" alt="main"><img src="images/silde1/bc29ddcb44cba1944ff17af2e9b29f10_70882.jpg" alt="main"><img src="images/silde1/671751bad096adce4f89eaf00a1e808d_20853.jpg" alt="main"><img src="images/silde1/8dd2b5d671eda17f1343679c2bf29c7a_84868.jpg" alt="main"><img src="images/silde1/9e2939124ff91885602055a5e0ba777a_80000.jpg" alt="main"><img src="images/silde1/fcb9d5266b589b296c50991a9229b21f_85978.jpg" alt="main"></p>
+        </div> block12_1 
+        <div class="btn">
+            <div class="btn_left"><a href="#"><img src="images/roll_left.gif" alt="왼쪽"></a></div>
+            <div class="btn_right"><a href="#"><img src="images/roll_right.gif" alt="왼쪽"></a></div>
+        </div>
+    </div> box_block --> 
+
+    <div class="box_block">
+        <div class="block6 block6_1"><img src="images/silde2/249cdf011660eb84c369a5820671364c_80552.jpg" alt="이미지"></div>
+        <div class="block6 block6_1"><img src="images/silde2/b069cf2b71b3be9c3e99b16a07d7b72d_90374.jpg" alt="이미지"></div>
+    </div>
+
+    <div class="box_block"> <!-- 웹 -->
+        <div class="block12 block12_2">
+            <ul class="tabs">
+                <li class="tab1 current" data-tab="tab1-1"><span>New &amp; Open</span></li>
+                <li class="tab2" data-tab="tab2-1"><span>Best Item</span></li>
+            </ul>
+        </div><!-- block12_2 -->
+
+        <div class="box_block">
+            <div id="tab1-1" class="tab-content current">
+                <div class="block3"><img src="images/newOpen/107_main_034.jpg" alt="상품1">
+                    <p class="protxt_1">고소하고 깔끔한 맛 </p>
+                    <p class="protxt_2">고구마줄기볶음</p>
+                    <p class="protxt_3">4,800원</p>
+                    <p class="protxt_4">리뷰 291</p>
+                </div>
+                <div class="block3"><img src="images/newOpen/28_main_044.jpg" alt="상품2">
+                    <p class="protxt_1">꼬들꼬들 오독오독</p>
+                    <p class="protxt_2">무말랭이무친</p>
+                    <p class="protxt_3">3,900원</p>
+                    <p class="protxt_4">리뷰 418</p>
+                </div>
+                <div class="block3"><img src="images/newOpen/3352428_main_095.jpg" alt="상품3">
+                    <p class="protxt_1">담백한 야채육수와 쫄깃한 버섯</p>
+                    <p class="protxt_2">[반조리]버섯전골(+고기추가)</p>
+                    <p class="protxt_3">14,400원</p>
+                    <p class="protxt_4">리뷰 100</p>
+                </div>
+                <div class="block3"><img src="images/newOpen/3354528_main_026.png" alt="상품4">
+                    <p class="protxt_1">잡내 없이 고소한 육즙 가득 국내산돼지고기</p>
+                    <p class="protxt_2">초신선 100% 암퇘지 고기</p>
+                    <p class="protxt_3">30,400원</p>
+                    <p class="protxt_4">리뷰 0</p>
+                </div>
+            </div>
+
+            <div id="tab2-1" class="tab-content">
+                <div class="block3"><img src="images/best item/23_main_029.jpg" alt="상품5">
+                    <p class="protxt_1">입소문난 김치류 베스트</p>
+                    <p class="protxt_2">겉절이김치</p>
+                    <p class="protxt_3">6,900원</p>
+                    <p class="protxt_4">리뷰 1,065</p>
+                </div>
+                <div class="block3"><img src="images/best item/37_main_075.jpg" alt="상품6">
+                    <p class="protxt_1">민반찬계의 센터</p>
+                    <p class="protxt_2">진미채볶음</p>
+                    <p class="protxt_3">5,000원</p>
+                    <p class="protxt_4">리뷰 1,364</p>
+                </div>
+                <div class="block3"><img src="images/best item/82374_main_081.jpg" alt="상품7">
+                    <p class="protxt_1">찬반만 있어도 충분해요</p>
+                    <p class="protxt_2">짜장소스</p>
+                    <p class="protxt_3">5,000원</p>
+                    <p class="protxt_4">리뷰 246</p>
+                </div>
+                <div class="block3"><img src="images/best item/92_main_078.jpg" alt="상품8">
+                    <p class="protxt_1">남녀노소 인기메뉴</p>
+                    <p class="protxt_2">제육볶음</p>
+                    <p class="protxt_3">10,000원</p>
+                    <p class="protxt_4">리뷰 575</p>
+                </div>
+            </div>
+        </div>
+
+        <button style="width: 200px; height:50px; border-radius: 50px; margin-left: 350px; margin-top: 50px;" class="plsbogi" >더 보기</button>
+    </div><!-- box_block -->
+
+    <div class="box_block">
+        <div class="block12 block12_3"><a href="#"><img src="images/05f8b3cafa9ffa228f38251d3e629a3c_66971.jpg" alt="이벤트"></a></div>
+    </div>
+
+    <div class="box_block">
+        <div class="block12 block12_4">
+            <div class="bottom_l"> <!-- 웹/테블 -->
+                <h2><img src="images/로고/00fcf6ce1c81d3074cc0edd3eb92bfc8_56524.png" alt="로고2"></h2>
+                <ul class="bottom_sns">
+                    <li><a href="#"><img src="images/proicon/sns2_over_01.png" alt="sns"></a></li>
+                    <li><a href="#"><img src="images/proicon/sns2_over_02.png" alt="sns"></a></li>
+                    <li><a href="#"><img src="images/proicon/sns2_over_05.png" alt="sns"></a></li>
+                </ul>
+                <p class="tel">1688-6285</p>
+                <p class="bottom_l_txt">
+                    평일 09:00 ~ 16:00<br>
+                    점심 13:00 ~ 14:00 / 주말 및 공휴일 휴무<br>
+                    업무시간 외 / 주말 및 공휴일은 1:1문의<br> 또는 카카오톡 문의를 이용해주세요.
+                </p>
+            </div><!-- bottom_l -->
+
+            <div class="bottom_r">
+                <ul class="fnb">
+                    <li><a href="#">브랜드 스토리</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">이용안내</a></li>
+                    <li><a href="#">광고/제휴 문의</a></li>
+                </ul>
+                <p>법인명(상호) : 주식회사 몽촌반찬  대표이사 : 박문근</p>
+                <p>사업자 등록번호 : 200-88-43616  <a href="#" style="margin-left: 100px;">사업자정보확인</a> </p>
+                <p>통신판매업신고번호 : 2002-서울강동-1292</p>
+                <p>개인정보책임자:이향미</p>
+                <p>주소 : 서울특별시 강동구 성내로 3길 16-9 3층 302호</p>
+                <p>팩스 : 02-424-8932  이메일 : blueriders@macfood.net</p>
+                <br>
+                <p><span>몽촌반찬. ALL RIGHTS RESERVED.</span></p>
+            </div>
+
+            <div class="bottom_m"> <!-- 모바일용 -->
+                <ul class="fnb_m">
+                    <li><a href="#">브랜드 스토리</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">이용안내</a></li>
+                    <li><a href="#">광고/제휴 문의</a></li>
+                </ul>
+                <p>몽촌반찬. ALL RIGHTS RESERVED.</p>
+            </div><!-- bottom_m -->
+        </div>
+    </div>
+
+    <div class="copyright"> <!-- 웹/테블릿 -->
+        <ul>
+        <li><a href="#"><img src="images/iconshop/ico_cart_menu01.jpg" alt="카피라이트">오늘 본 상품</a></li>
+        <li><a href="#"><img src="images/iconshop/ico_cart_menu02.jpg" alt="카피라이트">찜리스트</a></li>
+        <li><a href="#"><img src="images/iconshop/ico_cart_menu03.jpg" alt="카피라이트">장바구니</a></li>
+       <!--  <li class="gotop"><a href="index.html"><img src="images/iconshop/btn_cart_open.png" alt="위로"></a></li> -->
+        </ul>
+    </div>
+
+    <div class="m_copyright"><!-- 모바일용 -->
+        <ul>
+        <li><a href="#"><img src="images/iconshop/ico_cart_menu01.jpg" alt="카피라이트"></a></li></li>
+        <li><a href="#"><img src="images/iconshop/ico_cart_menu02.jpg" alt="카피라이트"></a></li>
+        <li><a href="#"><img src="images/iconshop/ico_cart_menu03.jpg" alt="카피라이트"></a></li>
+        </ul>
+        
+    </div>
+    
+    <p class="gotop"><a href="index.html"><img src="images/iconshop/btn_cart_open.png" alt="위로"></a></p>
+    <p class="gotop_m"><a href="index.html"><img src="images/iconshop/btn_cart_open.png" alt="위로"></a></p>
+
+</body>
+</html>
